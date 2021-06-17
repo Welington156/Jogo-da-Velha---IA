@@ -17,14 +17,16 @@ while(!ganhador){
         var p = []
         p = minimax.movimentoIA(board,jogador)
         i=p[0]
-        j=p[1]
-    }
+        j=p[1]/*
+        i = funcoes.getImputValido("Jogador "+jogador+" - Digite a linha");
+        j = funcoes.getImputValido("Jogador "+jogador+" - Digite a coluna");
+    */}
     else{ /*
         var p = []
         p = minimax.movimentoIA(board,jogador)
         i=p[0]
-        j=p[1]
-       */
+        j=p[1] 
+      */
         i = funcoes.getImputValido("Jogador "+jogador+" - Digite a linha");
         j = funcoes.getImputValido("Jogador "+jogador+" - Digite a coluna");
         
